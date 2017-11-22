@@ -33,8 +33,8 @@ sudo apt-get install -y unzip wget
 
 cd ~/Downloads
 
-#wget -O opencv-3.3.1.zip https://github.com/opencv/opencv/archive/3.3.1.zip
-#wget -O opencv_contrib-3.3.1.zip https://github.com/opencv/opencv_contrib/archive/3.3.1.zip
+wget -O opencv-3.3.1.zip https://github.com/opencv/opencv/archive/3.3.1.zip
+wget -O opencv_contrib-3.3.1.zip https://github.com/opencv/opencv_contrib/archive/3.3.1.zip
 unzip opencv-3.3.1.zip && unzip opencv_contrib-3.3.1.zip
 
 chmod 777 -R opencv-3.3.1 && chmod 777 -R opencv_contrib-3.3.1
